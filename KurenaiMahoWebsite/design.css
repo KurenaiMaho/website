@@ -1,0 +1,138 @@
+       <style type="Text/css">
+
+/* groﬂes Hintergrundbild */        
+ body {
+        background-image: url("Bilder/backround.jpg");
+        background-repeat: repeat;
+        position: absolut, top;
+        z-index:2;
+      }
+/*Titelbild */       
+
+#head {
+		background-color: transparent;
+			height: 171px;
+				background-image: url("Bilder/headerbild.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+		}
+/*graue Leiste unter den Bildern */      
+#mainbar {
+		background-color: #333333;
+			color: #333333;
+      position: relative;
+      background-position: center center;
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      
+		}
+/* Dropdown Button style */
+.dropbtn {
+    background-color: #333333;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+/* The container <div> - needed to position the dropdown content */   
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+ /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #474747;
+                              text-decoration: underline;
+                                                    }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #333333;
+}
+
+/*Hyperlinks werden nur beim Hover unterstrichen und nicht mehr anders gef‰rbt */
+a {
+    text-decoration:none;
+  }
+a:link,
+a:visited {
+    color:white;
+          }
+    
+a:hover,
+a:active {
+    text-decoration:underline;
+        }   
+ input[type=text] {padding:5px; border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text]:focus {border-color:#333; }
+
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    
+    
+.schriftrolle {
+width: 1080px;
+position: relative;
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+background-color: transparent;
+clear: top;
+
+
+}
+
+.schriftrolle img {
+display: block;}
+    
+.schriftrolle span
+{     background-color: transparent; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+}    
+ #content, #breadcrumb {
+		background-color: #333333;
+		position: relative;
+      background-position: center center;
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #ffffff;	
+      font-size: 20px;
+      } 
+      
+        
+</style>  /* CSS Document */
